@@ -83,6 +83,10 @@ async function makeBroccoli() {
     document.querySelector("#broccoli").innerHTML += `<li>${step3}</li>`;
     let step4 = await obtainInstruction("broccoli", 4);
     document.querySelector("#broccoli").innerHTML += `<li>${step4}</li>`;
+    let step5 = await obtainInstruction("broccoli", 5);
+    document.querySelector("#broccoli").innerHTML += `<li>${step5}</li>`;
+    let step6 = await obtainInstruction("broccoli", 6);
+    document.querySelector("#broccoli").innerHTML += `<li>${step6}</li>`;
     document.querySelector(
       "#broccoli"
     ).innerHTML += `<li>Broccoli is ready!</li>`;
